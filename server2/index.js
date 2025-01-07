@@ -15,7 +15,7 @@ app.get("/upload-file", async (req, res) => {
     formData.append("file", fs.createReadStream(filePath));
 
     // Upload to the first server
-    const response = await axios.post("http://localhost:3001/upload", formData, {
+    const response = await axios.post("https://server1-fileupload-4u6g14qyvw.dcdeploy.cloud/upload", formData, {
       headers: formData.getHeaders(),
     });
 
