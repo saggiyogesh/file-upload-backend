@@ -1,7 +1,7 @@
 {
   "name": "file-upload-backend",
   "version": "1.0.0",
-  "main": "server1/index.js",
+  "main": "server2/index.js",
   "type": "commonjs",
   "scripts": {
     "start": "node index.js",
@@ -16,6 +16,7 @@
     "body-parser": "^1.20.3",
     "cors": "^2.8.5",
     "express": "^4.21.2",
+    "form-data": "^4.0.1",
     "multer": "^1.4.5-lts.1"
   },
   "devDependencies": {
